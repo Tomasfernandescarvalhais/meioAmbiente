@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+
+li {
+  list-style: none;
+
+}
+
+li a {
+  color: black;
+  text-decoration: none;
+}
+
+body {
+  background-color: #eee;
+}
+
+header {
+  background-color: #0d98cd;
+  width: 100%;
+  height: 10vh;
+}
+
+.container-header {
+  display: flex;
+  justify-content: space-around;
+
+
+}
+
+main {
+  width: 90%;
+  height: vh;
+  margin:10px 50px auto;
+  background-color: rgba(68, 23, 23, 0);
+  margin-top: 50px;
+
+}
+
+.section {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+}
+.container-card {
+  padding: 0px 25px;
+  background: linear-gradient(rgba(143, 142, 142, 0.679), rgba(148, 148, 148, 0.282)), url('https://super.abril.com.br/wp-content/uploads/2019/06/site_temponatureza.png?quality=70&strip=info&resize=680,453%27');
+  width: 20%;
+  background-color: crimson;
+  height: 400px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Ruslan Display', cursive;
+
+}
+
+.corpo {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+
+.titulo{
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: 'Ruslan Display', cursive;
+}
+
+footer {
+  margin-top: 60px;
+  background-color: #0d98cd;
+  text-align: center;
+  position:absolute;
+  bottom: 0px;
+  width: 100%;
+
+}
